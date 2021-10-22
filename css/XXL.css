@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+  
+   
+     max-width: 1920px; 
+     margin: 0 auto;
+  }
+  .container-fluid {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  /* .navbar */
+  .nav-container{
+    background-image: url("../images/banner-bg.jpg");
+     background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1087px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .navbar-button {
+    display: flex;
+}
+  .navbar-button a{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 63px;
+    font-weight: 600;
+  }
+  .button-one{
+    transform: skewX( 
+        -45deg);
+        background-color: rgb(247, 247, 247);
+        margin-right: 26px;
+       
+  }
+  .button-two{
+    transform: skewX( 
+        -45deg);
+          background-color:#00e89d;
+          margin-right: 70px;
+          color: white;
+    }
+.button-one a{
+    padding: 17px 53px;
+}
+.button-two a{
+    padding: 17px 53px;
+}
+.button-span {
+    transform: skewX( 
+45deg);
+    display: inline-block;
+}
+.button-span1 {
+    transform: skewX( 
+45deg);
+    display: inline-block;
+}
+.button-span1 a{
+    color: black;
+}
+.icons img{
+    margin-left: 10px;
+}
+.icons a{
+    margin-right: 20px;
+}
+
+.icons a{
+    font-size: 18px;
+}
+.buttons{
+    display: flex;
+    text-align: center;
+}
+/* banner :start */
+.banner h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    line-height: 103px;
+    color: #fffefe;
+    font-weight: 400;
+    padding-bottom: 43px;
+}
+.banner{
+    margin-top: 346px;
+    text-align: center;
+}
+.banner-buttons{
+    display: flex;
+    justify-content: center;
+}
+.banner-button-one a{
+ 
+    font-size: 18px;
+    line-height: 95px;
+    color: #e9ebef;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0078ff;
+    padding: 17px 58px;
+    margin-right: 26px;
+    text-decoration: none;
+}
+.banner-button-two a {
+    font-size: 18px;
+    line-height: 95px;
+    color: #0d0d0e;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: #f3f5f7;
+    padding: 17px 72px;
+}
+.get{
+    display: inline-block;
+ 
+}
+.up{
+    display: inline-block;
+    transform: skewX(
+45deg);
+}
+.banner-button-one{
+    transform: skewX(
+-45deg);
+}
+.banner-button-two{
+    transform: skewX(
+-45deg);
+}
+
+/* banner complete */
+.welcome{
+    background-image: url("../images/welcome-bg.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1079px;
+}
+.welcome-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.contant {
+    width: 665px;
+    padding: 180px 0px 0px 107px;
+}
+
+.block-images{
+  
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 43px;
+    }
+
+.skind-block{
+    display: flex;
+    justify-content: space-between;
+}
+.contant h2{
+    font-size: 70px;
+line-height: 91px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+padding-bottom: 32px;
+}
+.contant p{
+   
+height: 299px;
+font-size: 20px;
+line-height: 34px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+}
+h6.welcome-content {
+ 
+    font-size: 20px;
+
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.images-section {
+    text-align: center;
+    width: 932px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.images-section h2{
+    font-size: 35px;
+letter-spacing: 0px;
+margin-bottom: 30px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+}
+.first-image:hover{
+    transform: rotateY(180deg);
+}
+/* block end */
+/* testimonalend  */
+.testimonial {
+    background-image: url("../images/testimonial-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.test{
+    padding-top: 112px;
+    padding-bottom: 103px;
+}
+.testimonial-item p{
+    width: 378px;
+height: 324px;
+font-size: 20px;
+line-height: 34px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+}
+.testimonial-item h3{
+    font-size: 22px;
+letter-spacing: 1px;
+line-height: 95px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+}
+ .container-fluid .owl-nav {
+    display: flex !important;
+    justify-content: space-between;
+    position: absolute;
+    top: 155px;
+    right: 0;
+    left: 0;
+}
+.services-image {
+    padding: 30px 0px 30px 0px;
+}
+.owl-dots {
+    display: none;
+}
+img#arrow-left {
+    margin-left: -238px;
+}
+img#arrow-right{
+    margin-right: -186px;
+}
+.logo-container h2{
+    font-size: 70px;
+    line-height: 91px;
+    color: #050f1e;
+    font-weight: 400;
+    font-family: "Anton";
+    text-align: center;
+    padding-bottom: 37px;
+}
+.logos{
+    background-image: url("../images/trusted-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo-container{
+    padding-top: 125px;
+    padding-bottom: 134px;
+}
+ /* testimonalend  */  
+/* services */
+
+
+.services{
+    background-image: url("../images/transportation-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.services-container {
+    display: flex;
+    color: rgb(238, 238, 238);
+    justify-content: space-around;
+}
+.service-text h2{
+    font-size: 70px;
+line-height: 91px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+padding-top: 268px;
+}
+.service-text p{
+    width: 685px;
+    
+font-size: 20px;
+line-height: 34px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+}
+.image-background img {
+    position: relative;
+}
+
+/* truckkkk */
+
+.choose-century {
+    display: flex;
+}
+.pay {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 37px;
+    justify-content: space-between;
+}
+.pay-two {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+.pay-three {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+.pay-four {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+p{
+    width: 614px;
+height: 90px;
+font-size: 20px;
+line-height: 34px;
+color: #050f1e;
+font-weight: 400;
+font-family: "Poppins";
+}
+h4 {
+    font-size: 20px;
+    line-height: 34px;
+    color: #050f1e;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+.choose-best h2{
+    font-size: 70px;
+line-height: 91px;
+color: #05101e;
+font-weight: 400;
+font-family: "Anton";
+}
+
+
+.choose-best {
+    margin-left: 158px;
+    margin-top: 90px;
+}
+
+/* your truck */
+.truck-part-two{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    background-image: url("../images/1.jpg");
+}
+.your-truck{
+    display: flex;
+    
+    padding-top: 90px;
+}
+.truck-text h2{
+    font-size: 70px;
+line-height: 91px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+
+}
+.truck-text1 h2{
+    font-size: 70px;
+line-height: 91px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+}
+
+.truck-text h3{
+    font-size: 70px;
+line-height: 91px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+padding-bottom: 22px;
+
+
+}
+.truck-text p{
+
+    width: 480px;
+height: 85px;
+font-size: 20px;
+letter-spacing: 0px;
+line-height: 34px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+padding-bottom: 40px;
+}
+.truck-right {
+    padding-left: 71px;
+}
+.truck-text {
+    margin-left: 13.59%;
+}
+.truck-text1 {
+    margin-right: 13.59%;
+}
+.truck-left{
+    margin-right: 71px;
+}
+.truck-text1 p{
+
+    width: 480px;
+height: 85px;
+font-size: 20px;
+letter-spacing: 0px;
+line-height: 34px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+padding-bottom: 40px;
+}
+.truck-text1 h3{
+    font-size: 70px;
+line-height: 91px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+padding-bottom: 40px;
+
+
+}
+.truck-left img {
+    padding-top: 95px;
+}
+.precision{
+    display: flex;
+    background-color: #23233c;
+}
+.precision-text p{
+    width: 818px;
+height: 223px;
+font-size: 20px;
+line-height: 34px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+padding-left: 90px;
+
+}
+.precision-text h2{
+    font-size: 70px;
+    line-height: 91px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Anton";
+    padding-top: 90px;
+    padding-left: 90px;
+padding-right: 90px;
+}
+.precision-image {
+    padding-left: 90px;
+    padding-top: 140px;
+}
+.precision-text h4{
+    width: 719px;
+
+font-size: 20px;
+padding: 30px 0px 40px 90px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+
+}
+/* bestpart */
+
+.the-best{
+    display: flex;
+    background-color: #23233c;
+}
+.best-text h2{
+    font-size: 70px;
+line-height: 91px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Anton";
+padding-top: 155px;
+}
+.best-text p{
+    width: 686px;
+height: 85px;
+font-size: 20px;
+line-height: 34px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+padding-top: 35px;
+}
